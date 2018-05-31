@@ -20,8 +20,8 @@
 
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<body class="" data-spy='scroll' data-target="#navbarText" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbarText">
         <div class="container">
 
             <a class="navbar-brand" href="#">Economy house</a>
@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li>
-                        <a class="nav-link" href="index.html">Download</a>
+                        <a class="nav-link" href="#secao-download-principal">Download</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#secao-caracteristicas">Características</a>
@@ -57,22 +57,22 @@
         </div>
     </nav>
 
-    <header class="col-md-12">
 
+    <header class="col-md-12" id="secao-download-principal">
 
-        <div class="container" id="secao-download-principal">
+        <div class="container">
             <section class="col-md-12 row text-center">
-                <figure class="col-lg-6">
+                <figure class="col-md-6 col-sm-12 mx-auto container">
                     <img src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/header-iphone-7-2.png" alt="imagem aplicativo"
-                        class="img-fluid w-100">
+                        class="d-block img-fluid">
                 </figure>
-                <div class="infos-download-principal col-md-6 text-white w-100">
-                       
-                    <h1 class="mb-5">Economy House</h1>
+                <div class="infos-download-principal col-md-6 col-sm-12 text-white w-100">
+
+                    <h1 class="mb-5 mt-5">Economy House</h1>
                     <h2 class="mb-5">Baixe o app e tenha controle dos gastos de energia da sua casa</h2>
-                   
+
                     <div class="">
-                        <button class="btn botao-download mr-2">
+                        <button class="btn botao-download">
                             <a href="#">
                                 <i class="fab fa-google-play"> Google Store</i>
                             </a>
@@ -98,7 +98,7 @@
 
                     <div class="intro-caracteristicas col-md-12 text-center">
                         <h1>Características</h1>
-                        <h2>Economy house foi criado para controlar os gastos de energia de sua casa</h2>
+                        <h2 class="mt-3 mb-3">Economy house foi criado para controlar os gastos de energia de sua casa</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ab similique! Dicta, nulla? Minima consequuntur blanditiis
                             excepturi corporis ea deleniti repellat unde animi.
@@ -124,7 +124,7 @@
 
 
 
-                    <div id="carouselCaracteristicas" class="carousel slide col-md-4  mx-auto" data-ride="carousel">
+                    <div id="carouselCaracteristicas" class="carousel slide col-md-4" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselCaracteristicas" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselCaracteristicas" data-slide-to="1" class=""></li>
@@ -132,25 +132,25 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/features-iphone-6-slide-2.png"
+                                <img class="d-block w-100 img-fluid" src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/features-iphone-6-slide-2.png"
                                     alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/features-iphone-6-slide-2.png"
+                                <img class="d-block w-100 img-fluid" src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/features-iphone-6-slide-2.png"
                                     alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/features-iphone-6-slide-2.png"
+                                <img class="d-block w-100 " src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/features-iphone-6-slide-2.png"
                                     alt="Third slide">
                             </div>
 
                         </div>
                         <a class="carousel-control-prev" href="#carouselCaracteristicas" role="button" data-slide="prev" class="bg-dark">
-                            <span class="carousel-control-prev-icon bg-dark " aria-hidden="true"></span>
+                            <i class="fas fa-chevron-left seta ml-2 size-5" aria-hidden="true"></i>
                             <span class="sr-only ">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselCaracteristicas" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <a class="carousel-control-next " href="#carouselCaracteristicas" role="button" data-slide="next">
+                            <i class="fas fa-chevron-right seta mr-2" aria-hidden="true"></i>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
@@ -179,100 +179,109 @@
             </div>
         </div>
 
+        <div id="secao-por-que-usar">
 
-        <section id="secao-por-que-usar" class="secao row mx-auto">
+            <section class="secao row mx-auto">
 
-            <div class="container-fluid col-md-6 ">
+                <div class="container-fluid col-md-6 ">
 
-                <div class="row">
-                    <h2>Por que usar?</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam placeat sequi, nobis nisi ipsam odio dolorem animi pariatur?
-                        Blanditiis, non ad? Sint ab excepturi a, laborum harum voluptatem obcaecati?
-                    </p>
-                    <button>FAQ</button>
+                    <div class="row">
+                        <h2>Por que usar?</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam placeat sequi, nobis nisi ipsam odio dolorem animi pariatur?
+                            Blanditiis, non ad? Sint ab excepturi a, laborum harum voluptatem obcaecati?
+                        </p>
+                        <button>FAQ</button>
+                    </div>
+
+                </div>
+                <div class="container-fluid bg-info col-md-6 background-escuro">
+                    <figure class="">
+                        <img src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/description-image-1.png" class="img-fluid"
+                            alt="">
+                    </figure>
+
                 </div>
 
-            </div>
-            <div class="container-fluid bg-info col-md-6 background-escuro">
-                <figure class="">
-                    <img src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/description-image-1.png" class="img-fluid"
-                        alt="">
-                </figure>
 
-            </div>
-
-
-            <div class="container-fluid col-md-6 background-verde">
-                <figure class="">
-                    <img src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/description-image-2.png" class="img-fluid"
-                        alt="">
-                </figure>
-            </div>
-            <div class="container-fluid col-md-6">
-                <div>
-                    <button>Benefícios</button>
-                    <button>Resultados</button>
+                <div class="container-fluid col-md-6 background-verde">
+                    <figure class="">
+                        <img src="https://inovatik.com/leon-mobile-app-landing-page/03-leon-hero-slider/images/description-image-2.png" class="img-fluid"
+                            alt="">
+                    </figure>
                 </div>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam expedita iste praesentium molestias excepturi minus ipsa
-                        enim nulla a recusandae, delectus veritatis illo sapiente nostrum accusantium quam neque ratione!
-                        Ratione!
-                    </p>
-                    <button>Sobre nós</button>
+                <div class="container-fluid col-md-6">
+                    <div>
+                        <button>Benefícios</button>
+                        <button>Resultados</button>
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam expedita iste praesentium molestias excepturi minus ipsa
+                            enim nulla a recusandae, delectus veritatis illo sapiente nostrum accusantium quam neque ratione!
+                            Ratione!
+                        </p>
+                        <button>Sobre nós</button>
+                    </div>
                 </div>
-            </div>
 
-        </section>
+            </section>
+        </div>
 
-        <section id="secao-video" class="row secao">
-            <div class="col-md-12 text-center">
-                <iframe class="w-50 img-fluid" height="auto" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-                <p>Assista um video demonstrativo</p>
-            </div>
-        </section>
 
-        <section id="secao-comentarios" class="row secao">
+        <div id="secao-video" class="">
+            <section class="container row mx-auto ">
+                <div class="col-md-12">
+                    <iframe class="w-100" height="400em" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dicta, eos vel officia quia repellat. At
+                        odio reprehenderit cumque iure pariatur excepturi numquam vel voluptates! Commodi corporis dolor
+                        odio inventore!</p>
+                </div>
+            </section>
+        </div>
 
-            <div id="carouselComentarios" class="carousel slide  mx-auto" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselComentarios" data-slide-to="0" class="active bg-info radius"></li>
-                    <li data-target="#carouselComentarios" data-slide-to="1" class="bg-info"></li>
-                    <li data-target="#carouselComentarios" data-slide-to="2" class="bg-info"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active ">
+        <div id="secao-comentarios" class="text-center">
+            <section class=" container">
+                <div class="col-12 mx-auto w-100  text-white">
+                    <div id="carouselComentarios" class="carousel slide  mx-auto" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselComentarios" data-slide-to="0" class="active bg-info radius"></li>
+                            <li data-target="#carouselComentarios" data-slide-to="1" class="bg-info"></li>
+                            <li data-target="#carouselComentarios" data-slide-to="2" class="bg-info"></li>
+                        </ol>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active  ">
 
-                        <div class="carousel-caption">
-                            <h3>Seu texto aqui</h3>
-                            <p>Seu texto aqui</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, veniam! Quidem repellat
+                                    quod dolores distinctio atque voluptate iste harum aliquam, itaque impedit, neque sequi
+                                    inventore vero maxime? Doloremque, totam architecto?</p>
+                                <h3>hsaduiadhsa</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, veniam! Quidem repellat
+                                    quod dolores distinctio atque voluptate iste harum aliquam, itaque impedit, neque sequi
+                                    inventore vero maxime? Doloremque, totam architecto?</p>
+                                <h3>hsaduiadhsa</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, veniam! Quidem repellat
+                                    quod dolores distinctio atque voluptate iste harum aliquam, itaque impedit, neque sequi
+                                    inventore vero maxime? Doloremque, totam architecto?</p>
+                                <h3>hsaduiadhsa</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, veniam! Quidem repellat quod dolores
-                            distinctio atque voluptate iste harum aliquam, itaque impedit, neque sequi inventore vero maxime?
-                            Doloremque, totam architecto?</p>
-                        <p>hsaduiadhsa</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, veniam! Quidem repellat quod dolores
-                            distinctio atque voluptate iste harum aliquam, itaque impedit, neque sequi inventore vero maxime?
-                            Doloremque, totam architecto?</p>
-                        <p>hsaduiadhsa</p>
-                    </div>
                 </div>
-            </div>
-        </section>
-
+            </section>
         </div>
+
 
 
     </main>
 
 
-    <footer class=" ">
+    <footer id="secao-contato">
         <div class="container row mx-auto">
             <div class="col-md-6">
                 <div>
@@ -322,7 +331,6 @@
 
 
     </footer>
-
 
 
 

@@ -5,7 +5,7 @@ body{
 
 h1{
     font-weight: 400;
-    font-size: 4.0em !important;
+    font-size: 2.0em !important;
    
     
 }
@@ -13,16 +13,19 @@ h2{
     font-weight: 300;
     font-size: 2em;
 }
+h3{
+    font:400 22px/1.5em "Roboto", sans-serif;
+}
 .container-fluid{
     margin: 50px auto;
 }
 #secao-download-principal{
-    padding: 3%;
+    padding: 10%;
    
 }
 .infos-download-principal{
     padding: 6% 1%;
-    margin: 50px auto;
+   
 }
 
 .secao{
@@ -35,13 +38,15 @@ footer, nav, .background-escuro{
 }
 
 nav{
-    background-color: transparent !important;
-    padding: 1% !important;
-    font-size: 20px;
-}
-nav::after{
     background-color: #333e50;
+    padding: 0.6% 1% !important;
+    font-size: 18px;
 }
+li{
+    padding: px;
+}
+
+
 /* #navbarText{
     background-color: red;
     display: flex;
@@ -53,6 +58,7 @@ header{
     
     background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     padding: 8%;
+    margin:auto;
 }
 
 #secao-caracteristicas{
@@ -60,6 +66,27 @@ header{
     padding: 5%;
     
    
+}
+#secao-caracteristicas img{
+   height: 700px;
+    
+   
+}
+#secao-por-que-usar section div {
+ 
+    padding-top: 7%;
+}
+
+
+
+#secao-video{
+    padding: 6% 0;
+    background-color:#eeeeee !important;
+}
+
+#secao-comentarios{
+    padding:5% 0;
+    background-color: #27c79a;
 }
 
 .background-escuro,.background-verde{
@@ -75,7 +102,7 @@ header{
 	color: #fff !important;
 	border: none;
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: 5px auto;
     padding: 13px 32px 14px 32px; 
 }
@@ -99,22 +126,50 @@ header{
 section #carouselCaracteristicas .carousel-indicators li
 {
     cursor: pointer;
-    padding: 3%;
+    padding: 2%;
     border-radius: 50px !important;
     width:10px;
     height: 10px;
     border: 2px solid  #333e50;
     background-color:transparent;
 }
-
-
-
 section #carouselCaracteristicas .carousel-indicators .active
 {
     background-color: #333e50;
     
 }
+#carouselComentarios .carousel-indicators li{
+    cursor: pointer;
+    padding: 0.5%;
+    border-radius: 50px !important;
+    width:10px;
+    height: 10px;
+    border: 1px solid #fff;
+    background-color:transparent !important;
+}
+#carouselComentarios .carousel-indicators .active{   
+    background-color:#fff !important;
+}
 
+
+
+
+
+
+.seta {
+    color: #333e50;
+    font-size: 3.0em;
+    margin-bottom: 1em;
+
+}
+
+
+#secao-caracteristicas .carousel-item{
+    padding-bottom: 10%;
+}
+#secao-comentarios .carousel-item{
+    padding: 4%;
+}
 
 /* .botao-download{
     .button-large-solid,
