@@ -1,0 +1,129 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1{
+    font-weight: 400;
+    font-size: 4.0em !important;
+   
+    
+}
+h2{
+    font-weight: 300;
+    font-size: 2em;
+}
+.container-fluid{
+    margin: 50px auto;
+}
+#secao-download-principal{
+    padding: 3%;
+   
+}
+.infos-download-principal{
+    padding: 6% 1%;
+    margin: 50px auto;
+}
+
+.secao{
+    margin: auto;
+    
+}
+
+footer, nav, .background-escuro{
+    background-color: #333e50 !important;
+}
+
+nav{
+    background-color: transparent !important;
+    padding: 1% !important;
+    font-size: 20px;
+}
+nav::after{
+    background-color: #333e50;
+}
+/* #navbarText{
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end !important;
+} */
+
+header{
+    
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    padding: 8%;
+}
+
+#secao-caracteristicas{
+    background-color: #eeeeee !important;
+    padding: 5%;
+    
+   
+}
+
+.background-escuro,.background-verde{
+    padding: 4%;
+    margin: 0;
+}
+.botao-download, .background-verde{
+    background-color: #27c79a;
+}
+.botao-download {
+	font: 300 17px/1.5em "Roboto", sans-serif;
+	background-color: #27c79a;
+	color: #fff !important;
+	border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin: 5px auto;
+    padding: 13px 32px 14px 32px; 
+}
+
+.botao-download a{
+    text-decoration: none;
+    color: #fff ;
+    
+   
+}
+.botao-download:hover
+{   
+    background-color: #1cb187;
+    
+}
+.botao-download a:hover{
+    color: #fff;
+    
+}
+
+section #carouselCaracteristicas .carousel-indicators li
+{
+    cursor: pointer;
+    padding: 3%;
+    border-radius: 50px !important;
+    width:10px;
+    height: 10px;
+    border: 2px solid  #333e50;
+    background-color:transparent;
+}
+
+
+
+section #carouselCaracteristicas .carousel-indicators .active
+{
+    background-color: #333e50;
+    
+}
+
+
+/* .botao-download{
+    .button-large-solid,
+    .button-large-solid:focus {
+        font: 300 17px/1.5em "Roboto", sans-serif;
+        background-color: #27c79a;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 13px 32px 14px 32px;
+        text-decoration: none; 
+} */
