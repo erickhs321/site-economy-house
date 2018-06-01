@@ -4,8 +4,8 @@ body{
 }
 
 h1{
-    font-weight: 400;
-    font-size: 2.0em !important;
+ 
+   font: 400 40px/2.0em "Roboto", sans-serif;
    
     
 }
@@ -20,11 +20,11 @@ h3{
     margin: 50px auto;
 }
 #secao-download-principal{
-    padding: 10%;
+    padding: 12%;
    
 }
 .infos-download-principal{
-    padding: 6% 1%;
+    padding: 10% 1%;
    
 }
 
@@ -33,17 +33,20 @@ h3{
     
 }
 
-footer, nav, .background-escuro{
+footer, .background-escuro{
     background-color: #333e50 !important;
 }
 
 nav{
-    background-color: #333e50;
-    padding: 0.6% 1% !important;
-    font-size: 18px;
+   
+    padding: 0.5% 1% !important;
+    font-size: 1.0em;
+   
 }
+
+
 li{
-    padding: px;
+    padding: 2px;
 }
 
 
@@ -151,7 +154,11 @@ section #carouselCaracteristicas .carousel-indicators .active
     background-color:#fff !important;
 }
 
+/* #carouselComentarios .carousel-inner .carousel-item {
 
+    transition: opacity 2s ease !important;
+   
+  } */
 
 
 
@@ -165,20 +172,12 @@ section #carouselCaracteristicas .carousel-indicators .active
 
 
 #secao-caracteristicas .carousel-item{
-    padding-bottom: 10%;
+    margin-bottom: 50px;
 }
 #secao-comentarios .carousel-item{
-    padding: 4%;
+    padding-top: 2.5%;
+    padding-bottom: 2%;   
+ 
+    margin-bottom: 30px;
 }
 
-/* .botao-download{
-    .button-large-solid,
-    .button-large-solid:focus {
-        font: 300 17px/1.5em "Roboto", sans-serif;
-        background-color: #27c79a;
-        color: #fff;
-        border: none;
-        border-radius: 10px;
-        padding: 13px 32px 14px 32px;
-        text-decoration: none; 
-} */
