@@ -1,41 +1,37 @@
 
 body{
-    font: 300 16px/26px "Roboto", sans-serif;
+
 	color: #333e50; 
 }
 
 h1{
  
-   font: 400 40px/2.0em "Roboto", sans-serif;
-   
+   font: 400 45px/2.0em "Roboto", sans-serif;
+   font-weight: bold;
     
 }
 h2{
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 h3{
-    font:400 24px/1.5em "Roboto", sans-serif !important;
-    display: block;  
-    font-weight: bold;
+    font:300 24px/1.5em "Roboto", sans-serif !important; 
+   
 }
 
-.container-fluid{
-    margin: 50px auto;
-}
+
 #secao-download-principal{
     padding: 12%;
    
 }
 .infos-download-principal{
-    padding: 10% 1%;
-   
+    padding: 10% 0;   
+}
+.grupo-botoes-download{
+    padding: 2%;
 }
 
-.secao{
-    margin: auto;
-    
-}
+
 
 footer, .background-escuro{
     background-color: #333e50 !important;
@@ -209,4 +205,17 @@ div .texto-por-que-usar{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#redes-sociais{
+    font-size: 2.0em;
+}
+
+#redes-sociais i:hover{
+    color:#27c79a;
+    cursor: pointer;
+}
+
+#secao-contato .container{
+    padding: 4% 0;
 }
