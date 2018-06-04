@@ -6,13 +6,13 @@ body{
 
 h1{
  
-   font: 400 45px/2.0em "Roboto", sans-serif;
-   font-weight: bold;
+   font: bold 40px "Roboto", sans-serif;
+ 
     
 }
 h2{
-    font-weight: 300;
-    font-size: 1.8em;
+    font-weight: 400;
+    font-size: 25px;
 }
 h3{
     font:300 24px/1.5em "Roboto", sans-serif !important; 
@@ -25,7 +25,7 @@ h3{
    
 }
 .infos-download-principal{
-    padding: 10% 0;   
+    padding: 12% 0;   
 }
 .grupo-botoes-download{
     padding: 2%;
@@ -40,28 +40,19 @@ footer, .background-escuro{
 nav{
    
     padding: 0.5% 1% !important;
-    font-size: 1.0em;
+    font-size: 1.1em;
    
+}
+.fa-feather{
+    font-size: 23px !important;
 }
 
 
 li{
-    padding: 2px;
+    padding:2px;
 }
 
 
-/* #navbarText{
-    background-color: red;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end !important;
-} */
-
-header{
-    
-    padding: 8%;
-    margin:auto;
-}
 
 #secao-caracteristicas{
     background-color: #eeeeee !important;
@@ -69,48 +60,37 @@ header{
     
    
 }
-#secao-caracteristicas img{
 
-    
-   
-}
 
-#secao-caracteristicas #carouselCaracteristicas  .carousel-inner {
+.img-por-que-usar, .texto-por-que-usar {
  
+    padding: 5% 8%;
 }
 
 
-#secao-por-que-usar section div {
- 
-    padding-top: 7%;
-}
-
-
-
-#secao-video{
-    padding: 6% 0;
+#secao-video
+{
     background-color:#eeeeee !important;
 }
 
 #secao-comentarios{
-    padding:5% 0;
     background-color: #27c79a;
 }
-
-.background-escuro,.background-verde{
-    padding: 4%;
-    margin: 0;
+#secao-comentarios,#secao-video{
+    padding:7% 0;
+   
 }
+
 .botao-download, .background-verde{
     background-color: #27c79a;
 }
 .botao-download {
-	font: 300 17px/1.5em "Roboto", sans-serif;
+	font: 200 18px/1.5em "Roboto", sans-serif;
 	background-color: #27c79a;
 	color: #fff !important;
 	border: none;
     border-radius: 10px;
-    font-size: 1.4em;
+    
     margin: 5px auto;
     padding: 13px 32px 14px 32px; 
 }
@@ -131,14 +111,15 @@ header{
     
 }
 
+
 section #carouselCaracteristicas .carousel-indicators li
 {
     cursor: pointer;
-    padding: 2%;
-    border-radius: 50px !important;
-    width:10px;
-    height: 10px;
-    border: 2px solid  #333e50;
+    padding: 1.5%;
+    border-radius: 10px !important;
+    width:1%;
+    height: 1%;
+    border: 1px solid  #333e50;
     background-color:transparent;
 }
 section #carouselCaracteristicas .carousel-indicators .active
@@ -146,27 +127,20 @@ section #carouselCaracteristicas .carousel-indicators .active
     background-color: #333e50;
     
 }
+
+
 #carouselComentarios .carousel-indicators li{
-    cursor: pointer;
-    padding: 0.5%;
+    cursor: pointer;  
     border-radius: 50px !important;
     width:10px;
     height: 10px;
     border: 1px solid #fff;
     background-color:transparent !important;
+    
 }
 #carouselComentarios .carousel-indicators .active{   
     background-color:#fff !important;
 }
-
-/* #carouselComentarios .carousel-inner .carousel-item {
-
-    transition: opacity 2s ease !important;
-   
-  } */
-
-
-
 
 .seta {
     color: #333e50;
@@ -195,10 +169,10 @@ div .texto-por-que-usar{
 
 .parallax {
     /* The image used */
-    background-image: url("https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("http://www.wallpaperspots.com/wp-content/uploads/2014/04/hd-nature-wallpaper-for-pc-1920x1080.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 200px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

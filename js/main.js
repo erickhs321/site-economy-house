@@ -9,3 +9,9 @@ function scroll() {
     document.getElementById('barra-navegacao').style.backgroundColor = 'transparent';
    }
 }
+
+$('#carouselComentarios').carousel({
+    interval: 2100
+  })
+
+
