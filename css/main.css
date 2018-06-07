@@ -40,7 +40,7 @@ footer, .background-escuro{
 nav{
    
     padding: 0.5% 1% !important;
-    font-size: 1.1em;
+    font-size: 1.0em;
    
 }
 .fa-feather{
@@ -192,4 +192,8 @@ div .texto-por-que-usar{
 
 #secao-contato .container{
     padding: 4% 0;
+}
+
+.fadein{
+    opacity: 0;
 }
