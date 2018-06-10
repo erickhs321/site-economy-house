@@ -45,6 +45,10 @@ html{
         font-size: 17px !important;    
        }
 }
+
+nav i{
+    color: #79BD9A;
+}
 h1{
  
    font-weight: bold;
@@ -291,4 +295,9 @@ div .texto-por-que-usar{
 
 .imagem2{
    max-width:66% !important ;
+}
+
+.tab-pane {
+    height: 100px !important;
+    
 }
