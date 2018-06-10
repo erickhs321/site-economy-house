@@ -3,7 +3,6 @@ body{
 
     color: #0B486B; 
     box-sizing: border-box;
-
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;   
   
 }
@@ -11,6 +10,10 @@ body{
 
 nav i{
     color: #79BD9A;
+}
+span{
+    font-weight: 400 !important;
+   font-size: 0.9rem !important;
 }
 h1{
  
@@ -113,10 +116,10 @@ li{
     background-color: transparent !important;    
 	font-size: 1.0rem;    
     font-weight: lighter !important;
-	color: #fff !important;
+	color: rgba(255,255,255,.5) !important;
 	border: none;
     border-radius: 0.5rem;
-    border: 2px solid white;
+    border: 2px solid rgba(255,255,255,.5);
     width:10rem;
     height: 3.2rem;
     margin: 5px auto;
@@ -125,26 +128,25 @@ li{
 
 .botao-download a{
     text-decoration: none;
-    color: #fff ;
- 
+    color: #fff ; 
    
 }
 .botao-download:hover
 {   
+   color: #0B486B !important;  
     background-color: white !important;  
     
 }
-.botao-download a:hover{
-    color: #fff;
-    
-}
+
 .botao-download:hover a
 {   
     color: #0B486B !important;  
+  
     
 }
 .botao-download-secundario{
     background-color: #79BD9A !important;  
+    border-color: transparent;
 }
 
 
@@ -194,8 +196,6 @@ section #carouselCaracteristicas .carousel-indicators .active
     color: black;
     font-size: 2.2rem;
     margin: 0;
-  
-   
 
 }
 
@@ -230,10 +230,21 @@ div .texto-por-que-usar{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#secao-contato h3{
+    color:#79BD9A;
+    
+}
 
+.email{
+    color: #fff;
+}
+.email:hover{
+    color:#3B8686;
+}
 
-#redes-sociais{
-    font-size: 2.0em;
+#redes-sociais i{
+    font-size: 1.8rem !important;
+    
 }
 
 #redes-sociais i:hover{
@@ -245,9 +256,6 @@ div .texto-por-que-usar{
     padding: 4% 0;
 }
 
-.fadein{
-    opacity: 0;
-}
 
 .texto-por-que-usar a {
     color: #22658B;
@@ -275,6 +283,49 @@ div .texto-por-que-usar{
 .img-por-que-usar, .texto-por-que-usar {
    padding: 70px 10% !important;
   
+}
+
+#secao-contato form input, textarea{
+    color: #79BD9A;
+    font-size: 0.9rem;
+    background-color: transparent !important;
+    border: 1.3px solid rgba(255,255,255,.5);
+    border-radius: 1.1rem;
+    margin-bottom: 10px;
+    resize: none;
+    padding: 20px;
+}
+#secao-contato input{
+    height: 40px;
+    width: 49% !important;
+}
+
+
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder {
+    color: rgba(255,255,255,.5);
+    text-align: center;
+    
+ }
+input:focus, textarea:focus, button:focus {
+    box-shadow: 0 0 0 0 !important;
+    resize: none;
+ 
+    outline: 0 !important;
+}
+
+input:focus, textarea:focus{
+    border-color: #3B8686 !important;
+}
+
+.progress{
+    height: 2rem!important;
+    color: #fff;
+}
+.progress-bar-animated{
+    background-color: #3B8686 !important;
+    padding: 0.5rem;
+
 }
 @media screen and (max-width: 1920px) {
     html * {
