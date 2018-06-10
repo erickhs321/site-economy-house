@@ -1,13 +1,14 @@
 
 body{
 
-    color: #333e50; 
+    color: #0B486B; 
    
   
 }
 
 html{
     font-size: 16px !important;
+    text-align: justify !important;
     
 }
 @media all and (max-width: 350px) {
@@ -78,10 +79,16 @@ h4{
     
 }
 
+.background-verde-claro{
+    background-color: #79BD9A !important;
+}
+.background-escuro, #secao-comentarios{
+    
+}
 
 
-footer, .background-escuro{
-    background-color: #333e50 !important;
+footer{
+    background-color: rgb(34, 101, 139)!important;
 }
 
 nav{
@@ -96,7 +103,7 @@ nav{
 
 
 li{
-    padding:2px;
+    padding:1px;
 }
 
 
@@ -104,14 +111,20 @@ li{
 #secao-caracteristicas{
     background-color: #eeeeee !important;
     padding: 5%;
-    
+
+   
+}
+#secao-caracteristicas i{
+   color: #3B8686;
+        
    
 }
 
 
+
 .img-por-que-usar, .texto-por-que-usar {
- 
-    padding: 5% 8%;
+   padding: 5% 10% !important;
+  
 }
 
 
@@ -121,24 +134,26 @@ li{
 }
 
 #secao-comentarios{
-    background-color: #27c79a;
+    background-color: #3B8686;
 }
 #secao-comentarios,#secao-video{
     padding:7% 0;
    
 }
 
-.botao-download, .background-verde{
-    background-color: #27c79a;
+.background-verde{
+    background-color: #3B8686 !important;
 }
 .botao-download {
-	font-size: 1.0rem;    background-color: #27c79a;
-    font-weight: 200;
+    background-color: transparent !important;    
+	font-size: 1.0rem;    
+    font-weight: lighter !important;
 	color: #fff !important;
 	border: none;
-    border-radius: 10px;
+    border-radius: 0.5rem;
+    border: 2px solid white;
     width:10rem;
-    height: 3.0rem;
+    height: 3.2rem;
     margin: 5px auto;
     padding: 0.8rem 2.0rem 0.8rem 2.0rem; 
 }
@@ -151,12 +166,26 @@ li{
 }
 .botao-download:hover
 {   
-    background-color: #1cb187;
+    background-color: white !important;  
     
 }
 .botao-download a:hover{
     color: #fff;
     
+}
+.botao-download:hover a
+{   
+    color: white !important;  
+    
+}
+.botao-download-secundario{
+    background-color: #79BD9A !important;  
+}
+
+
+
+.botao-download-secundario:hover {
+    background-color: #3B8686 !important;  
 }
 
 
@@ -167,16 +196,18 @@ section #carouselCaracteristicas .carousel-indicators li
     border-radius: 10px !important;
     width:1%;
     height: 1%;
-    border: 1px solid  #333e50;
+    border: 1px solid  #79BD9A;
     background-color:transparent;
 }
 section #carouselCaracteristicas .carousel-indicators .active
 {
-    background-color: #333e50;
+    background-color: #3B8686;
     
 }
 
-
+#carouselComentarios{
+    height: 30vh;
+}
 #carouselComentarios .carousel-indicators li{
     cursor: pointer;  
     border-radius: 50px !important;
@@ -191,9 +222,11 @@ section #carouselCaracteristicas .carousel-indicators .active
 }
 
 .seta {
-    color: #333e50;
-    font-size: 3.0em;
-    margin-bottom: 1em;
+    color: black;
+    font-size: 2.2rem;
+    margin: 0 -0.6rem;
+    margin-bottom: 1.5em;
+   
 
 }
 
@@ -235,7 +268,7 @@ div .texto-por-que-usar{
 }
 
 #redes-sociais i:hover{
-    color:#27c79a;
+    color:#3B8686;
     cursor: pointer;
 }
 
@@ -245,4 +278,17 @@ div .texto-por-que-usar{
 
 .fadein{
     opacity: 0;
+}
+
+.texto-por-que-usar a {
+    color: #22658B;
+}
+.texto-por-que-usar .nav-pills .nav-link.active, .nav-pills .show >.nav-link {
+    color: #fff;
+    background-color: #3B8686;
+}
+
+
+.imagem2{
+   max-width:66% !important ;
 }

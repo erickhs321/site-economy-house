@@ -9,9 +9,10 @@ documentEl.on('scroll', function () {
     //     alert("ativou");
     //    });
     if (window.pageYOffset > 100) {
-        document.getElementById('barra-navegacao').style.backgroundColor = '#333e50';
+        document.getElementById('barra-navegacao').style.backgroundColor = '#22658B';
 
-
+        // #3B8686
+        // #0B486B
     }
     else {
         document.getElementById('barra-navegacao').style.backgroundColor = 'transparent';
@@ -22,6 +23,10 @@ documentEl.on('scroll', function () {
 
 $('#carouselComentarios').carousel({
     interval: 2200
+});
+
+$('#carouselCaracteristicas').carousel({
+    interval: 5200
 });
 
 
