@@ -123,7 +123,7 @@ li{
     width:10rem;
     height: 3.2rem;
     margin: 5px auto;
-    padding: 1%, 2%, 1%, 2%; 
+    padding: 1%, 2%, 1%, 2% !important; 
 }
 
 .botao-download a{
@@ -163,7 +163,7 @@ li{
 section #carouselCaracteristicas .carousel-indicators li
 {
     cursor: pointer;
-    padding: 1.5%;
+    padding: 0.3rem;
     border-radius: 10px !important;
     width:1%;
     height: 1%;

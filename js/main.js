@@ -18,11 +18,11 @@ documentEl.on('scroll', function () {
 
 
 $('#carouselComentarios').carousel({
-    interval: 2400
+    interval: 3000
 });
 
 $('#carouselCaracteristicas').carousel({
-    interval: 5200
+    interval: 6000
 });
 
 
