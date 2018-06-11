@@ -219,16 +219,23 @@ div .texto-por-que-usar{
 
 .parallax {
     /* The image used */
-    background-image: url("https://images.pexels.com/photos/212323/pexels-photo-212323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") !important;
+    background-image: url("../img/header-background.jpeg") !important;
 
     /* Set a specific height */
-  
+   background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 500px;
+  
 }
 #secao-contato h3{
     color:#79BD9A;
