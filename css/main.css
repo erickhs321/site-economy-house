@@ -1,5 +1,6 @@
 
 
+
 body{
 
     color: #0B486B; 
@@ -220,29 +221,13 @@ div .texto-por-que-usar{
 
 .parallax {
     /* The image used */
-    background: url("../img/header-background.jpeg") no-repeat center center fixed !important;
- 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-
+    background-image: url("../img/header-background.jpeg") !important;
+    min-height: 500px;
     /* Set a specific height */
-   /* background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  */
-
-
-    /* Create the parallax scrolling effect */
-    /* background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 500px; */
-  
+    background-size: cover;
 }
 #secao-contato h3{
     color:#79BD9A;
